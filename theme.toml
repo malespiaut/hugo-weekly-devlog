@@ -1,12 +1,12 @@
-name = "XMin"
+name = "weekly-devlog"
 license = "MIT"
-licenselink = "https://github.com/yihui/hugo-xmin/blob/master/LICENSE.md"
-description = "eXtremely Minimal Hugo theme: about 150 lines of code in total, including HTML and CSS"
-homepage = "https://xmin.yihui.org"
-tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
+licenselink = "https://github.com/malespiaut/hugo-weekly-devlog/blob/master/LICENSE.md"
+description = "Minimal Hugo theme, based on xmin, inspired by the old “weekly-am2” blog from SEGA AM2."
+homepage = "https://github.com/malespiaut/hugo-weekly-devlog"
+tags = ["minimal", "blog", "personal", "corporate", "clean", "simple", "starter", "minimalist", "retro"]
 features = ["blog"]
 min_version = "0.18"
 
 [author]
-  name = "Yihui Xie"
-  homepage = "https://yihui.org"
+  name = "Marc-Alexandre Espiaut"
+  homepage = "https://espiaut.fr/marc-alexandre"

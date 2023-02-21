@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-date: '2015-07-23'
+date: '2023-01-01'
 categories:
   - Example
 tags:

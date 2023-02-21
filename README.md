@@ -1,9 +1,8 @@
-# HUGO XMIN
+# weekly-devlog Hugo theme
 
 ## _Keep it simple, but not simpler_
 
-**XMin** is a Hugo theme written by [Yihui Xie](https://yihui.org) in about four hours: half an hour was spent on the Hugo templates, and 3.5 hours were spent on styling. The main motivation for writing this theme was to provide a really minimal example to beginners of Hugo templates. This XMin theme contains about 130 lines of code in total, including the code in HTML templates and CSS (also counting empty lines).
-
+**weekly-devlog** is a fork of the *XMin* Hugo theme written by [Yihui Xie](https://yihui.org), that is inspired by the [“weekly-am2” blog from SEGA AM2](https://web.archive.org/web/20040703062543id_/http://www.sega-am2.co.jp/jp/wam2/2004/2004_06_29/2004_06_29_1.html).
 
 ```bash
 find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
@@ -23,6 +22,6 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
      137 total
 ```
 
-I can certainly further reduce the code, for example, by eliminating the CSS, but I believe a tiny bit of CSS can greatly improve readability. You cannot really find many CSS frameworks that only contain 50 lines of code.
+## License
 
-[![Screenshot](https://github.com/yihui/hugo-xmin/raw/master/images/screenshot.png)](https://xmin.yihui.org)
+This project is licensed under the MIT License. See the LICENSE file for details.

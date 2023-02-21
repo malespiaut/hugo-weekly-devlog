@@ -1,9 +1,8 @@
 body {
     font-family: sans-serif;
-    max-width: 800px;
+    max-width: 500px;
     margin: auto;
     padding: 1em;
-    line-height: 1.5;
 }
 
 .site-title {
@@ -19,15 +18,20 @@ body {
 /* header and footer areas */
 .menu {
     padding: 0;
+    margin: 0;
 }
 
 .menu li {
     display: inline-block;
 }
 
-.article-meta,
-.menu a {
+a {
     text-decoration: none;
+    color: #003399;
+}
+
+a:hover {
+    color: #ff0000;
 }
 
 .menu,
@@ -35,13 +39,15 @@ footer {
     text-align: center;
 }
 
-.article-meta h1 {/*.title {*/
+.article-meta h1 {
     font-size: 18px;
     display: inline list-item;
     list-style: square;
 }
 
-.article-meta h2 {
+.author,
+.date {
+    text-align: right;
     font-size: 18px;
 }
 
@@ -49,28 +55,17 @@ footer a {
     text-decoration: none;
 }
 
-
 hr {
     border: 0;
     height: 1px;
     background-color: #333399;
 }
 
-
 /* code */
 pre {
-    border: 1px solid #ddd;
-    box-shadow: 5px 5px 5px #eee;
+    border: 1px solid #333399;
     padding: 1em;
     overflow-x: auto;
-}
-
-code {
-    background: #f9f9f9;
-}
-
-pre code {
-    background: none;
 }
 
 /* misc elements */
@@ -86,14 +81,14 @@ main {
 
 blockquote {
     background: #f9f9f9;
-    border-left: 5px solid #ccc;
+    border-left: 5px solid #0066cc;
     padding: 3px 1em 3px;
 }
 
 table {
     margin: auto;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
+    border-top: 1px solid #333399;
+    border-bottom: 1px solid #333399;
 }
 
 table thead th {
