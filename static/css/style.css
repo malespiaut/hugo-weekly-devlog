@@ -45,10 +45,13 @@ footer a {
     text-decoration: none;
 }
 
+
 hr {
-    border-style: dashed;
-    color: #ddd;
+    border: 0;
+    height: 1px;
+    background-color: #333399;
 }
+
 
 /* code */
 pre {
