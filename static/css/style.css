@@ -35,10 +35,14 @@ footer {
     text-align: center;
 }
 
-.title {
+.article-meta h1 {/*.title {*/
     font-size: 18px;
     display: inline list-item;
     list-style: square;
+}
+
+.article-meta h2 {
+    font-size: 18px;
 }
 
 footer a {
