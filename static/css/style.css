@@ -6,12 +6,14 @@ body {
     line-height: 1.5;
 }
 
-.site-title{
+.site-title {
+    color: #333399;
     font-size: 30pt;
     font-style: italic;
     font-weight: 900;
     text-decoration-line: underline;
     text-decoration-style: dotted;
+    margin: 0;
 }
 
 /* header and footer areas */
