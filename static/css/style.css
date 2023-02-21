@@ -28,19 +28,17 @@ body {
 .article-meta,
 .menu a {
     text-decoration: none;
-    background: #eee;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 .menu,
-.article-meta,
 footer {
     text-align: center;
 }
 
 .title {
-    font-size: 1.1em;
+    font-size: 18px;
+    display: inline list-item;
+    list-style: square;
 }
 
 footer a {
